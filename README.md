@@ -1,18 +1,20 @@
-## Getting Started
+## Exercicio Java utilizando ENUM e COMPOSIÇÃO (JAVA POO)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Criação de sistema para calculo de contratos de trabalho utilizando ENUM e COMPOSIÇÃO.
+Com esse sistema é possivel calcular contratos de trabalho por periodo de mês/ano.
 
-## Folder Structure
+## UML
 
-The workspace contains two folders by default, where:
+![alt text](image.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como o sistema funciona
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1° Usuario informa departamento, nome, nivel (trainee, Jr e etc..) e salario base
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2° É solicitado ao usuario a quantidade de contratos trabalhados
 
-## Dependency Management
+3° Informar dados do contrato (data, valor por hora e duração horas trabalhadas)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4° Informar mes/ano para calcular sua renda de acordo com mes e ano informado.
+
+Informando esses dados o sistema vai mostrar as informações, como: nome, Departamento e renda referente mes/ano conforme 4° passo!!
