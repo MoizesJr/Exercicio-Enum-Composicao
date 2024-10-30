@@ -1,10 +1,10 @@
 package entities;
 
-import javax.xml.crypto.Data;
+import java.util.Date;
 
 public class HourContract {
 
-  private Data date;
+  private Date date;
   private Double valuePerHour;
   private Integer hours;
 
@@ -12,7 +12,7 @@ public class HourContract {
 
   }
 
-  public HourContract(Data date, Double valuePerHour, Integer hours) {
+  public HourContract(Date date, Double valuePerHour, Integer hours) {
     this.date = date;
     this.valuePerHour = valuePerHour;
     this.hours = hours;
@@ -22,11 +22,11 @@ public class HourContract {
     return this.getHours() * this.getValuePerHour();
   }
 
-  public Data getDate() {
+  public Date getDate() {
     return date;
   }
 
-  public void setDate(Data date) {
+  public void setDate(Date date) {
     this.date = date;
   }
 
